@@ -6,7 +6,7 @@ Aria2是一个命令行下运行、多协议、多来源下载工具（HTTP/HTTP
 
  
  
-| ARM 设备 ![ARM设备](http://apps.readynas.com/pages/wp-content/uploads/2016/02/ARM_button.png) |
+| ![ARM设备](https://github.com/iranee/readynas-aria2/blob/master/ARM_button.png) |
 | --------         |
 | ReadyNAS 102        |
 | ReadyNAS 104        |
@@ -16,8 +16,7 @@ Aria2是一个命令行下运行、多协议、多来源下载工具（HTTP/HTTP
 | ReadyNAS 214        |
 | ReadyNAS 2120        |
 
- 
-| x86 设备 ![ARM设备](http://apps.readynas.com/pages/wp-content/uploads/2016/02/x86_button.png) | |
+| ![ARM设备](https://github.com/iranee/readynas-aria2/blob/master/x86_button.png) | |
 | --------         | ------------  |
 | ReadyNAS 312        | ReadyNAS 626X        |
 | ReadyNAS 314        | ReadyNAS 628X        |
