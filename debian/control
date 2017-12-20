@@ -1,0 +1,12 @@
+Source: aria2
+Section: contrib
+Priority: extra
+Maintainer: bbis <bbis@cheen.cn>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 1.33.1
+Homepage: http://aria2.github.io/
+
+Package: aria2
+Architecture: all
+Depends: ${misc:Depends}, readynasos (>= 6.0.5~T1271), libevent-2.0-5 (>= 2.0), libapache2-mod-php5 (>= 5.4~), php5 (>= 5.4~), php5-gd (>= 5.4~)
+Description: Aria2 - A lightweight multi-protocol & multi-source command-line download utility. It supports HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink. aria2 can be manipulated via built-in JSON-RPC and XML-RPC interfaces.
