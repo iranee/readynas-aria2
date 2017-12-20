@@ -1,0 +1,13 @@
+[Unit]
+Description=Service for aria2 
+After=apache2.service readynasd.service
+
+[Service]
+Type=forking
+ExecStart=/etc/init.d/aria2c_server start
+ExecStop=/etc/init.d/aria2c_server stop
+PIDFile=/var/run/aria2c.pid
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

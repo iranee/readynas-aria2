@@ -1,0 +1,15 @@
+<Application resource-id="aria2">
+  <AppID>WHOCARES_GENIEAPP_010015</AppID>
+  <Category>APP_CAT_NETWORK_OTHER</Category>   
+  <Name>Aria2</Name>
+  <Author>bbis</Author>
+  <Version>1.33.1</Version>
+  <RequireReboot>0</RequireReboot>
+  <ConfigURL>/apps/aria2/config.php</ConfigURL>
+  <InfoURL lang="en-us">http://aria2.github.io</InfoURL>
+  <LaunchURL>http://localhost:6789/ariang</LaunchURL>
+  <ReservePort>6789</ReservePort>
+  <DebianPackage>aria2</DebianPackage>
+  <ServiceName>fvapp-aria2.service</ServiceName><!-- no service required -->
+  <Description lang="zh-cn">Aria2是一个命令行下运行、多协议、多来源下载工具（HTTP/HTTPS、FTP、BitTorrent、Metalink），内建 XML-RPC 用户界面</Description>
+</Application>
