@@ -22,3 +22,4 @@ Aria2是一个命令行下运行、多协议、多来源下载工具（HTTP/HTTP
 * 1， 下载以 **.deb** 结尾的安装程序
 * 2， 进入ReadyNAS管理界面，点进 **应用程序**
 * 3， 选择上传并安装应用程序
+![安装图解](https://github.com/iranee/readynas-aria2/blob/master/install.png)
