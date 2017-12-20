@@ -2,7 +2,7 @@
 
 Aria2是一个命令行下运行、多协议、多来源下载工具（HTTP/HTTPS、FTP、BitTorrent、Metalink），内建 XML-RPC 用户界面
 
-确定您的ReadyNAS存储系统是基于ARM还是基于x86：
+* 支持以下ReadyNAS存储设备：
 
 | ![ARM设备](https://github.com/iranee/readynas-aria2/blob/master/ARM_button.png) | ![x86设备](https://github.com/iranee/readynas-aria2/blob/master/x86_button.png) |![x86设备](https://github.com/iranee/readynas-aria2/blob/master/x86_button.png)  |
 | --------         |------|-----|
@@ -18,8 +18,7 @@ Aria2是一个命令行下运行、多协议、多来源下载工具（HTTP/HTTP
 |        -            | ReadyNAS 526X        | ReadyNAS 3312        |
 |        -            | ReadyNAS 528X        | ReadyNAS 4312        |
 
-
-
-
-
-
+### 安装程序
+* 1. 下载以 **.deb** 结尾的安装程序
+* 2. 进入ReadyNAS管理界面，点进 **应用程序**
+* 3. 选择上传并安装应用程序
