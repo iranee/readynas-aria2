@@ -1,6 +1,6 @@
-aria2 (1.33.1) unstable; urgency=low
+aria2 (1.34.0) unstable; urgency=low
+  
+  * Update new version to 1.34.0
+  * Update AriaNg version to 1.0.0
 
-  * Fix high CPU usage in BitTorrent downloads
-  * new upstream release
-
- -- bbis <bbis@cheen.cn>  Thu, 16 Nov 2017 22:11:14 +0800
+ -- bbis <bbis@cheen.cn>  Sat, 16 Dec 2018 23:06:14 +0800

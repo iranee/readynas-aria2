@@ -3,11 +3,11 @@
   <Category>APP_CAT_NETWORK_OTHER</Category>   
   <Name>Aria2</Name>
   <Author>bbis</Author>
-  <Version>1.33.1</Version>
+  <Version>1.34.0</Version>
   <RequireReboot>0</RequireReboot>
   <ConfigURL>/apps/aria2/config.php</ConfigURL>
   <InfoURL lang="en-us">http://aria2.github.io</InfoURL>
-  <LaunchURL>http://localhost:6789/ariang</LaunchURL>
+  <LaunchURL>http://localhost:6789/</LaunchURL>
   <ReservePort>6789</ReservePort>
   <DebianPackage>aria2</DebianPackage>
   <ServiceName>fvapp-aria2.service</ServiceName><!-- no service required -->
