@@ -1,5 +1,9 @@
 # Readynas Aria2 Applications
 
+Update : 2018-12-8
+ - Update Aria2c new version to 1.34.0
+ - Update AriaNg version to 1.0.0
+
 Aria2是一个命令行下运行、多协议、多来源下载工具（HTTP/HTTPS、FTP、BitTorrent、Metalink），内建 XML-RPC 用户界面
 
 * 支持以下ReadyNAS存储设备：
@@ -23,3 +27,5 @@ Aria2是一个命令行下运行、多协议、多来源下载工具（HTTP/HTTP
 * 2， 进入ReadyNAS管理界面，点进 **应用程序**
 * 3， 选择上传并安装应用程序
 ![安装图解](https://github.com/iranee/readynas-aria2/blob/master/install.png)
+
+
