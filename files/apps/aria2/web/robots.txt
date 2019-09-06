@@ -1,4 +1,4 @@
-# Aria2
+# AriaNg
 
 User-agent: *
 Disallow: /
