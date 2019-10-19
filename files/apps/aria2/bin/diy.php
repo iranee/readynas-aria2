@@ -17,7 +17,6 @@
 		<li><b>推荐* AriaNG控制台 * </span><a title="推荐使用本地服务" href="<?php echo 'http://'.$_SERVER['SERVER_NAME'].':6789/'; ?>" target="_blank" ><?php echo 'http://'.$_SERVER['SERVER_NAME'].':6789/'; ?></a></b><br><br></li>
 		<li><b>Glutton控制台 <a href="http://aria2.me/glutton/" target="_blank">http://aria2.me/glutton/</a></b><br><br></li>	
 		<li><b>yaaw控制台 <a href="http://aria2.me/yaaw/" target="_blank">http://aria2.me/yaaw/</a></b><br><br></li>
-		<li><b>aria2-webui控制台 <a href="http://aria2.me/webui-aria2/" target="_blank">http://aria2.me/webui-aria2/</a></b><br><br></li>
 		<li><b>RPC授权令牌：<?php echo "<input type='text' size='20' style='color:red;' readonly='readonly' value='{$rpc_pwd}' />" ?></b><br><br></li>				
 		<h1>Aria2 配置文件修改</h1>
 		<li><b>配置说明请参考 <a href="readme.html" target="_blank">Aria2 Manual</a></b><br><br></li>

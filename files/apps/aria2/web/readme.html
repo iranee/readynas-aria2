@@ -6,6 +6,7 @@
 	<title>Aria2 & YAAW 使用说明</title>
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, width=device-width">
 	<meta name="author" content="aa65535" />
+	<link href="favicon.ico" rel="shortcut icon" type="image/ico" />
 	<meta name="keywords" content="aria2,yaaw,aria2使用说明,aria2配置说明,aria2脚本" />
 	<meta name="description" content="Aria2 & YAAW 使用说明" />
 	<style type="text/css">
@@ -126,11 +127,9 @@
 </span><span class="sc1"># 事件轮询方式, 取值:[epoll, kqueue, port, poll, select], 不同系统默认值不同
 #event-poll=select
 # RPC监听端口, 端口被占用时可以修改, 默认:6800
-rpc-listen-port=6800
-
-# 设置的RPC授权令牌,建议开启，并更改默认密匙。
-# v1.18.4新增功能, 取代 --rpc-user 和 --rpc-passwd 选项
-</span><span class="sc0">rpc-secret=A1drt54Ed</span><span class="sc1">
+#rpc-listen-port=6800
+# 设置的RPC授权令牌, v1.18.4新增功能, 取代 --rpc-user 和 --rpc-passwd 选项
+#rpc-secret=&lt;TOKEN&gt;
 # 设置的RPC访问用户名, 此选项新版已废弃, 建议改用 --rpc-secret 选项
 #rpc-user=&lt;USER&gt;
 # 设置的RPC访问密码, 此选项新版已废弃, 建议改用 --rpc-secret 选项
@@ -148,9 +147,8 @@ rpc-listen-port=6800
 </span><span class="sc0">
 </span><span class="sc1"># 当下载的是一个种子(以.torrent结尾)时, 自动开始BT任务, 默认:true
 #follow-torrent=true
-# BT监听端口, 当端口被屏蔽时使用, 默认:6881-6999；
-# 原代码定义是listen-port，因特殊需求此插件改为bt-tcp-port
-</span><span class="sc5">bt-tcp-port</span><span class="sc3">=</span><span class="sc0">51413
+# BT监听端口, 当端口被屏蔽时使用, 默认:6881-6999
+</span><span class="sc5">listen-port</span><span class="sc3">=</span><span class="sc0">51413
 </span><span class="sc1"># 单个种子最大连接数, 默认:55
 #bt-max-peers=55
 # 打开DHT功能, PT需要禁用, 默认:true
@@ -168,6 +166,7 @@ rpc-listen-port=6800
 # 客户端伪装, PT需要
 </span><span class="sc5">peer-id-prefix</span><span class="sc3">=</span><span class="sc0">-TR2770-
 </span><span class="sc5">user-agent</span><span class="sc3">=</span><span class="sc0">Transmission/2.77
+</span><span class="sc5">peer-agent</span><span class="sc3">=</span><span class="sc0">Transmission/2.77
 </span><span class="sc1"># 当种子的分享率达到这个数时, 自动停止做种, 0为一直做种, 默认:1.0
 </span><span class="sc5">seed-ratio</span><span class="sc3">=</span><span class="sc0">0
 </span><span class="sc1"># 强制保存会话, 即使任务已经完成, 默认:false
@@ -183,6 +182,21 @@ rpc-listen-port=6800
 			</li>
 		</ul>
 	</div>
+	<h2>Aria2 相关下载</h2>
+	<div class="content">
+		<ul>
+			<li><a href="https://github.com/aria2/aria2/releases/latest" target="_blank">Aria2 源码/程序下载</a></li>
+			<li><a href="https://aria2c.com/archiver/aria2.conf" target="_blank">配置示例下载</a></li>
+			<li><a href="https://aria2c.com/archiver/aria2.zip" target="_blank">Windows 懒人包下载 (包含以下文件)</a>
+				<pre class="code">aria2.conf    <span class="sc1"># 配置文件 可以自己根据说明修改</span>
+aria2.exe     <span class="sc1"># 启动文件 使用这个来启动 aria2</span>
+aria2.session <span class="sc1"># 任务保存文件 未完成任务会保存在这里</span>
+aria2c.exe    <span class="sc1"># 32位命令行主程序</span>
+README.md     <span class="sc1"># README</span>
+Aria2Data     <span class="sc1"># 下载目录 默认下载文件会保存在这里</span></pre>
+			</li>
+		</ul>
+	</div>
 	<h2>YAAW 使用说明</h2>
 	<div class="content">
 		<b>JSON-RPC Path</b>
@@ -195,8 +209,8 @@ rpc-listen-port=6800
 				</ul>
 				<ul style="list-style-type: circle;">
 					<li>普通情况设置为: <code>http://host:port/jsonrpc</code></li>
-					<li>使用 <code>--rpc-secret=xxxxxx</code> 选项设置为: <code>http://token:<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="bfc7c7c7c7c7c7ffd7d0cccb">[email&#160;protected]</a>:port/jsonrpc</code></li>
-					<li>使用 <code>--rpc-user=user --rpc-passwd=pwd </code> 选项设置为: <code>http://user:<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="8efef9eacee6e1fdfa">[email&#160;protected]</a>:port/jsonrpc</code></li>
+					<li>使用 <code>--rpc-secret=xxxxxx</code> 选项设置为: <code>http://token:<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="6018181818181820080f1314">[email&#160;protected]</a>:port/jsonrpc</code></li>
+					<li>使用 <code>--rpc-user=user --rpc-passwd=pwd </code> 选项设置为: <code>http://user:<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="c8b8bfac88a0a7bbbc">[email&#160;protected]</a>:port/jsonrpc</code></li>
 					<li>以上 <code>JSON-RPC Path</code> 中的 <code>http</code> 可以用 <code>ws</code> 替代, 代表使用 <code>WebSocket 协议</code></li>
 					<li>当使用 <a href="https://aria2c.com" target="_blank">https://aria2c.com</a> 访问时, 需要使用 <code>https</code> 或 <code>wss</code> 协议</li>
 				</ul>
@@ -232,5 +246,5 @@ rpc-listen-port=6800
 			<li title="用Aria2接管chrome的下载">Chrome Extension: <a href="https://chrome.google.com/webstore/detail/nimeojfecmndgolmlmjghjmbpdkhhogl" target="_blank">添加到aria2</a></li>
 		</ul>
 	</div>
-<script style="display: none !important;">!function(e,t,r,n,c,a,l){function i(t,r){return r=e.createElement('div'),r.innerHTML='<a href="'+t.replace(/"/g,'&quot;')+'"></a>',r.childNodes[0].getAttribute('href')}function o(e,t,r,n){for(r='',n='0x'+e.substr(t,2)|0,t+=2;t<e.length;t+=2)r+=String.fromCharCode('0x'+e.substr(t,2)^n);return i(r)}try{for(c=e.getElementsByTagName('a'),l='/cdn-cgi/l/email-protection#',n=0;n<c.length;n++)try{(t=(a=c[n]).href.indexOf(l))>-1&&(a.href='mailto:'+o(a.href,t+l.length))}catch(e){}for(c=e.querySelectorAll('.__cf_email__'),n=0;n<c.length;n++)try{(a=c[n]).parentNode.replaceChild(e.createTextNode(o(a.getAttribute('data-cfemail'),0)),a)}catch(e){}}catch(e){}}(document);</script></body>
+
 </html>

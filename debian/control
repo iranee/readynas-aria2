@@ -3,7 +3,7 @@ Section: contrib
 Priority: extra
 Maintainer: bbis <bbis@cheen.cn>
 Build-Depends: debhelper (>= 8.0.0)
-Standards-Version: 1.34.0
+Standards-Version: 1.35.0
 Homepage: http://aria2.github.io/
 
 Package: aria2

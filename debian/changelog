@@ -1,6 +1,6 @@
-aria2 (1.34.0) unstable; urgency=low
+aria2 (1.35.0) unstable; urgency=low
   
-  * Update new version to 1.34.0
-  * Update AriaNg version to 1.0.0
+  * Update new version to 1.35.0
+  * Update AriaNg version to 1.1.4
 
- -- bbis <bbis@cheen.cn>  Sat, 16 Dec 2018 23:06:14 +0800
+ -- bbis <bbis@cheen.cn>  Oct, 18 Dec 2019 18:06:14 +0800
