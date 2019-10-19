@@ -1,5 +1,9 @@
 # Readynas Aria2 Applications
 
+Update : 2019-10-19
+ - Update Aria2c new version to 1.35.0
+ - Update AriaNg version to 1.1.4
+
 Update : 2019-9-06
  - Update AriaNg to v1.1.3,and fix bugs.
 
